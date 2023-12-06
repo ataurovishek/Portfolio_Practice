@@ -1,10 +1,14 @@
-
+import { motion } from 'framer-motion'
 import './Navbar.scss'
 const Navbar = () => {
     return (
         <section className='Navbar'>
             <div className="wrapper">
-                <span>Ataur ovi</span>
+                <motion.span animate={{
+                    opacity: [0, 1],
+                    scale: [0.5, 1]
+                }}
+                    transition={{type: "spring",  }}>Ataur ovi</motion.span>
 
                 <div className="social">
                     <a href=""><img src="/public/facebook.png" alt /></a>

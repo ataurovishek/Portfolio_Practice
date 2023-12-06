@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { useEffect, useState } from 'react';
+import {useState } from 'react';
 
 const Test = () => {
 
@@ -9,18 +9,14 @@ const Test = () => {
 
 
 
-    useEffect(() => {
+  
         const mouseMove = (e) => {
             setPosition({ x: e.clientX, y: e.clientY })
         }
 
         window.addEventListener('mousemove', mouseMove)
 
-        return () => {
-            window.addEventListener('mousemove', mouseMove)
-        }
-
-    },[])
+     
 
 
     return (

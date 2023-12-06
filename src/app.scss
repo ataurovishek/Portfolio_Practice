@@ -13,6 +13,7 @@ body {
     background-color: #0c0c1d;
     color: lightgray;
     font-family: 'DM Sans', sans-serif;
+    overflow: hidden;
 }
 
 section {
@@ -25,5 +26,7 @@ section {
     border-radius: 50%;
     width: 3vw;
     height: 3vw;
-    border: 1px solid gold;
+    border: 1px solid rgb(159, 158, 149);
+    position: fixed;
+    z-index: 100;
 }
