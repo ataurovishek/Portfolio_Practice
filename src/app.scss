@@ -9,7 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: #0c0c1d;
     color: lightgray;
     font-family: 'DM Sans', sans-serif;
@@ -18,4 +18,12 @@ body{
 section {
     scroll-snap-align: center;
     height: 100vh;
+}
+
+.cursor {
+    background-color: transparent;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    border: 1px solid gold;
 }

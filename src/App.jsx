@@ -1,9 +1,11 @@
-import Navbar from "./components/Navbar/Navbar";
+import Test from "./Test";
+// import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
+    <div >
+      {/* <Navbar /> */}
+      <Test/>
     </div>
   );
 };
