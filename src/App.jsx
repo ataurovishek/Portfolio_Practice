@@ -1,14 +1,9 @@
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   return (
     <div>
-      <section>hello ovishek</section>
-      <section>hello ovishek</section>
-      <section>hello ovishek</section>
-      <section>hello ovishek</section>
-      <section>hello ovishek</section>
-      <section>hello ovishek</section>
-      <section>hello ovishek</section>
+      <Navbar />
     </div>
   );
 };

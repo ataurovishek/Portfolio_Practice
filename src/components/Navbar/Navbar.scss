@@ -1,0 +1,29 @@
+.Navbar {
+    height: 5vw;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 100%;
+
+    span{
+        font-size: 0.8;
+        font-weight: 400;
+    }
+
+    .social {
+        display: flex;
+        gap: 0.6vw;
+    
+        img {
+            width: 1vw;
+            border-radius: 50%;
+        }
+    }
+}
+
+
