@@ -1,11 +1,13 @@
-import Test from "./Test";
+import Cursor from "./cursor";
 import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
 
 const App = () => {
   return (
     <div >
-      <Test/>
+      <Cursor />
       <Navbar />
+      <Hero/>
     </div>
   );
 };

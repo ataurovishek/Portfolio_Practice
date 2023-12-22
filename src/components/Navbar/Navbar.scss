@@ -1,16 +1,14 @@
 .Navbar {
     height: 5vw;
-    z-index: 99;
 }
 
 .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 80vw;
+    max-width: 70vw;
     margin: auto;
     height: 100%;
-
     span{
         font-size: 0.8;
         font-weight: 400;
@@ -26,5 +24,3 @@
         }
     }
 }
-
-
