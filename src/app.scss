@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'DM Sans', sans-serif;
+
 }
 
 html {
@@ -13,12 +14,11 @@ body {
     background-color: #0c0c1d;
     color: lightgray;
     font-family: 'DM Sans', sans-serif;
-    overflow: hidden;
 }
 
 section {
     scroll-snap-align: center;
-    height: 100vh;
+    overflow: hidden;
 }
 
 .cursor {
@@ -30,4 +30,3 @@ section {
     position: fixed;
     z-index: 100;
 }
-

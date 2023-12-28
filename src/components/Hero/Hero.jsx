@@ -18,11 +18,35 @@ const Hero = () => {
                 duration: 1,
                 staggerChildren: 0.1
             }
+        },
+        scroll: {
+            opacity: 0,
+            y: 10,
+            transition: {
+                duration: 2,
+                repeat: Infinity,
+                // ease: "easeIn",
+            }
+        }
+    }
+
+    const sliderText = {
+        initial: {
+            x: 0,
+        },
+        animate: {
+            x:'-100vw',
+            transition: {
+                duration: 20,
+                repeatType: "mirror",
+                repeat: Infinity
+            }
         }
     }
 
 
     return (
+<>
 
         <motion.div className="hero_container" >
             <motion.div className="hero" variants={textVariant} initial='initial' animate='animate'>
@@ -35,21 +59,22 @@ const Hero = () => {
                         <motion.button className='btn-2'>Contact Me</motion.button>
                     </motion.div>
 
-                    <motion.div className="mouse">
-                        <motion.img variants={textVariant} src="/scroll.png" alt="" />
+                    <motion.div className="mouse" variants={textVariant} animate='scroll'>
+                        <motion.img src="/scroll.png" alt="" />
                     </motion.div>
                 </motion.div>
 
 
-                <motion.div variants={textVariant} className="sliderText">
+                <motion.div variants={sliderText} animate='animate' initial='initial' className="sliderText">
                     Writer Content Creator Influencer
                 </motion.div>
 
-                <motion.div className="hero_img">
+                <motion.div className="hero_img" >
                     <motion.img variants={textVariant} src="/hero.png" alt="" />
                 </motion.div>
             </motion.div>
         </motion.div>
+        </>
     );
 };
 
