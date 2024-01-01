@@ -1,7 +1,7 @@
 .hero_container {
     background: linear-gradient(180deg, #0c0c1d, #111132);
-    height: 90vh;
-    display: inline-block;
+    height: 100vh;
+    overflow: hidden;
     .hero {
         position: relative;
         height: 100%;
