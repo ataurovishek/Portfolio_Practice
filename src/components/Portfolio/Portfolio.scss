@@ -1,0 +1,26 @@
+.portfolios {
+    position: relative;
+
+    .progress {
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+        position: sticky;
+        top: 10%;
+
+        h1 {
+            font-size: 3.2vw;
+            font-weight: 600;
+            color:rgb(207, 145, 52);
+        }
+        .progressBar{
+            height: 10px;
+            background-color: antiquewhite;
+        }
+    }
+
+    .portfolio {
+        height: 100vh;
+        overflow: hidden;
+    }
+}
