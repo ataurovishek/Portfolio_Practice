@@ -1,0 +1,81 @@
+.contact {
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    margin: 0 auto;
+    padding: 3rem;
+
+
+    .contact-data {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+
+        h1 {
+            font-size: 4.5vw;
+            line-height: 4rem;
+            font-weight: 700;
+
+
+        }
+
+        .contact-info {
+            h3 {
+                font-size: 1.1vw;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+
+
+}
+
+.form {
+    width: 100%;
+
+    form {
+        width: 100%;
+
+        input {
+            width: 100%;
+            display: block;
+            margin-bottom: 1rem;
+            border: none;
+            outline: none;
+            padding: 15px;
+            background-color: transparent;
+            border: 1px solid #d4d4d4;
+            border-radius: 4px;
+            color: azure;
+        }
+
+        textarea {
+            border-radius: 7px;
+            background-color: transparent;
+            width: 100%;
+            padding: 0.9rem;
+            height: 6.4rem;
+            resize: none;
+
+            color: azure;
+
+        }
+    }
+
+    button {
+        padding: 0.8rem;
+        margin-top: 0.5rem;
+        width: 106%;
+        border-radius: 3px;
+        background-color: rgb(242, 163, 17);
+        outline: none;
+        border: none;
+    }
+}
