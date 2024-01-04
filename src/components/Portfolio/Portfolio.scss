@@ -3,17 +3,18 @@
 
     .progress {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         text-align: center;
         position: sticky;
-        top: 10%;
+        top: 5%;
 
         h1 {
             font-size: 3.2vw;
             font-weight: 600;
-            color:rgb(207, 145, 52);
+            color: rgb(207, 145, 52);
         }
-        .progressBar{
+
+        .progressBar {
             height: 10px;
             background-color: antiquewhite;
         }
@@ -21,6 +22,46 @@
 
     .portfolio {
         height: 100vh;
+        padding-top: 3vw;
         overflow: hidden;
+        display: flex;
+        gap: 35px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .img {
+        width: 25vw;
+        height: 30vw;
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: bottom;
+            border-radius: 15px;
+        }
+    }
+
+    .textContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 50px;
+        width: 30vw;
+        h2{
+            font-size: 3.5vw;
+            font-weight: 900;
+        }
+        p{
+        font-size: 19px;
+        color: #ddd4d4d5;
+        }
+        button{
+            padding: 0.7vw 3.2vw;
+            border-radius: 0.8vw;
+            border: none;
+            background-color: orange;        }
     }
 }
