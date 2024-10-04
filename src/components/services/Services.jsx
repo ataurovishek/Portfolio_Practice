@@ -87,8 +87,8 @@ const Services = () => {
                     </motion.div>
                     <motion.div className='brand-temp'>
                         {
-                            branding.map(item =>
-                                <motion.div key={item} variants={itemvariant} className='temps' whileHover={{ background: 'lightgray', color: 'black' }}>
+                            branding.map((item,index) =>
+                                <motion.div key={index} variants={itemvariant} className='temps' whileHover={{ background: 'lightgray', color: 'black' }}>
                                     <span>{item.title}</span>
                                     <p>{item.info}</p>
                                     <button>{item.btn}</button>

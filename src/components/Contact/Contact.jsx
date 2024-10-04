@@ -26,7 +26,7 @@ const variant = {
 const Contact = () => {
     return (
         <motion.section className='contact' variants={variant} whileInView='animate' initial='initial'>
-            <motion.div className="contact-data" variants={variant} >
+            <motion.div className="contact-data" variants={variant}>
                 <motion.h1 variants={variant}>Let's work together</motion.h1>
                 <motion.div variants={variant} className='contact-info'>
                     <h3>Mail</h3>
@@ -44,7 +44,7 @@ const Contact = () => {
             <div className='form'>
                 <form >
                     <input type="text" placeholder='Name' />
-                    <input type="text" placeholder='Email' />
+                    <input type="email" placeholder='Email' />
                     <textarea placeholder='Message' />
                 </form>
                 <button>Submit</button>

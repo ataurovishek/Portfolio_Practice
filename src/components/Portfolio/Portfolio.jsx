@@ -58,7 +58,7 @@ const Portfolio = () => {
                 <motion.div className="progressBar" style={{ scaleX: progressBarProgress }}></motion.div>
             </div>
 
-            <Singleitems items={items} scrollYProgress={scrollYProgress}/>
+            <Singleitems items={items} key={items.id} scrollYProgress={scrollYProgress}/>
         </div>
     );
 };

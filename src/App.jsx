@@ -1,4 +1,4 @@
-import Cursor from "./cursor";
+import Cursor from "./Cursor";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Parallax from "./components/Parallax/Parallax";
